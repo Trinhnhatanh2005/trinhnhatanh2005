@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:  rgba(162, 226, 226,0.7); */
+    background-image:url('img/image2.jpg');
+    
+}
+:root{
+    --size_width:25px
+}    
+.box{
+ 
+    height: var(--size_width);
+    width: 100%;
+    background-color: rgb(192, 155, 241);
+    background-size: 100%;
+    position: relative;
+    text-decoration: none;
+    
+}
+#button1{
+   
+    position: absolute;
+    right: 0;
+    background-color: #008CBA;
+    border: 1px solid black;
+    padding: 10px 10px;
+    align-items: center;
+    top: -75%;
+    border-radius: 4px;
+    transition-duration: 0.2s; /* xác định tốc độ của hiệu ứng "di chuột" */
+
+}
+#button1:hover{
+    
+    background-color:rgb(192, 155, 241) ;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+h1{
+   
+    color: rgb(35, 14, 92);
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+
+}
+p{
+    box-sizing: border-box;
+    font-size: 100px;
+    color: rgb(233, 12, 196);
+    text-decoration-line: overline underline;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    justify-content:center ;
+    top: 50%;
+    width: 100%;
+    
+
+    /* align-items: center;
+    justify-content: center; */
+    
+
+}
+
+
+
+
+
+
